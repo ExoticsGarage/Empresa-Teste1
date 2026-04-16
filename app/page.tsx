@@ -2,10 +2,10 @@ export default function Home() {
   return (
     <main className="landing">
       <section className="hero">
-        <div className="heroBadge">Empresa Teste</div>
+        <div className="heroBadge">Sua empresa no melhor caminho</div>
 
         <h1 className="heroTitle">
-          Uma página profissional, rápida e pronta para publicar
+          Jadlog
         </h1>
 
         <p className="heroText">
