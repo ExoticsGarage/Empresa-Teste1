@@ -1,22 +1,18 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: 'Curso Completo de Marketing Digital',
-  description: 'Aprenda marketing digital do zero ao avancado com aulas praticas.',
+  title: 'jadlog - Pagamento',
+  description: 'Pagina de pagamento jadlog',
 }
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
-    <html lang="pt-BR" className="bg-background">
+    <html lang="pt-BR">
       <body className="font-sans antialiased">
         {children}
       </body>
