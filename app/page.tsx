@@ -53,6 +53,50 @@ export default function Home() {
         </div>
       </section>
 
+<section className="companySection">
+  <div className="companyCard">
+    <div className="companyImageWrap">
+      <img
+        src="/empresa.jpg"
+        alt="Imagem da empresa"
+        className="companyImage"
+      />
+    </div>
+
+    <div className="companyContent">
+      <span className="sectionMini">Sobre a operação</span>
+      <h2>Estrutura preparada para acompanhamento de transporte</h2>
+      <p>
+        Nossa operação foi pensada para apresentar de forma clara as
+        informações do envio, custos estimados e detalhes do transporte em
+        uma experiência visual simples e organizada.
+      </p>
+
+      <div className="companyInfoGrid">
+        <div className="infoItem">
+          <strong>Atendimento</strong>
+          <span>Segunda a sexta, das 8h às 18h</span>
+        </div>
+
+        <div className="infoItem">
+          <strong>Operação</strong>
+          <span>Envios nacionais com atualização de status</span>
+        </div>
+
+        <div className="infoItem">
+          <strong>Localização</strong>
+          <span>São Paulo - SP</span>
+        </div>
+
+        <div className="infoItem">
+          <strong>Contato</strong>
+          <span>contato@empresateste.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      
       <section className="featuresSection">
         <div className="sectionHeader">
           <span className="sectionMini">Resumo</span>
