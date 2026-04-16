@@ -137,7 +137,8 @@ export default function Home() {
 
       <footer className="footer">
         <div className="footerInner">
-          <span>© 2026 Jadlog </span>
+          <span>   ©2021 Jadlog - Todos os direitos reservados
+ </span>
           <span>Resumo tributação</span>
         </div>
       </footer>
