@@ -398,6 +398,7 @@ button {
   margin: 16px 0 12px;
   font-size: 38px;
   line-height: 1.08;
+  font-weight: 400;
 }
 
 .companyContent p {
