@@ -119,12 +119,12 @@ export default function Home() {
             </div>
 
             <div className="statBox">
-              <strong>Prazo estimado</strong>
-              <span>3 a 5 dias úteis</span>
+              <strong> Liberação imediata </strong>
+              <span>Pagamento via pix</span>
             </div>
 
             <div className="statBox">
-              <strong>Taxa de frete</strong>
+              <strong>Taxa de tributos</strong>
               <span>R$ 55,00</span>
             </div>
           </div>
@@ -137,8 +137,8 @@ export default function Home() {
 
       <footer className="footer">
         <div className="footerInner">
-          <span>© 2026 Empresa Teste</span>
-          <span>Resumo de transporte e frete</span>
+          <span>© 2026 Jadlog </span>
+          <span>Resumo tributação</span>
         </div>
       </footer>
     </main>
