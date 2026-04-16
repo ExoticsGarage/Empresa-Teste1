@@ -58,11 +58,11 @@ export default function ProductPage() {
 
           {/* Nome e Preco */}
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-foreground mb-2 text-balance">
-              Curso Completo de Marketing Digital
+            <h1 className="text-3xl font-bold text-foreground mb-2">
+              Taxa de Entrega
             </h1>
             <p className="text-muted-foreground mb-4">
-              Aprenda do zero ao avancado com aulas praticas
+              Pagamento da taxa de entrega jadlog
             </p>
             <div className="flex items-center justify-center gap-3">
               <span className="text-3xl font-bold text-primary">R$ 55,00</span>
@@ -74,27 +74,19 @@ export default function ProductPage() {
 
           {/* Beneficios */}
           <div className="bg-card border border-border rounded-xl p-6 mb-8">
-            <h2 className="font-semibold text-foreground mb-4">O que voce recebe:</h2>
+            <h2 className="font-semibold text-foreground mb-4">Incluso:</h2>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                <span className="text-foreground">Acesso vitalicio a mais de 50 aulas em video</span>
+                <span className="text-foreground">Entrega garantida</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                <span className="text-foreground">Material de apoio em PDF para download</span>
+                <span className="text-foreground">Rastreamento em tempo real</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                <span className="text-foreground">Certificado de conclusao</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                <span className="text-foreground">Suporte direto com o professor</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                <span className="text-foreground">Grupo exclusivo de alunos</span>
+                <span className="text-foreground">Seguro incluso</span>
               </li>
             </ul>
           </div>
@@ -104,12 +96,12 @@ export default function ProductPage() {
             className="w-full h-14 text-lg font-semibold mb-4"
             onClick={() => window.location.href = "/checkout"}
           >
-            Comprar Agora
+            Pagar Agora
           </Button>
 
           <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
             <ShieldCheck className="w-4 h-4" />
-            <span>Compra 100% segura - Garantia de 7 dias</span>
+            <span>Pagamento 100% seguro</span>
           </div>
         </div>
       </main>
@@ -121,11 +113,11 @@ export default function ProductPage() {
             {/* Contato */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-6">
               <a 
-                href="mailto:contato@acme.com.br" 
+                href="mailto:contato@jadlog.com.br" 
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">contato@acme.com.br</span>
+                <span className="text-sm">contato@jadlog.com.br</span>
               </a>
               <a 
                 href="tel:+5511999999999" 
@@ -147,22 +139,13 @@ export default function ProductPage() {
             {/* Logos de Pagamento */}
             <div className="flex items-center justify-center gap-4 mb-6">
               <div className="bg-muted rounded px-3 py-1.5">
-                <span className="text-xs font-semibold text-muted-foreground">VISA</span>
-              </div>
-              <div className="bg-muted rounded px-3 py-1.5">
-                <span className="text-xs font-semibold text-muted-foreground">MASTER</span>
-              </div>
-              <div className="bg-muted rounded px-3 py-1.5">
                 <span className="text-xs font-semibold text-muted-foreground">PIX</span>
-              </div>
-              <div className="bg-muted rounded px-3 py-1.5">
-                <span className="text-xs font-semibold text-muted-foreground">BOLETO</span>
               </div>
             </div>
 
             {/* Informacoes Legais */}
             <div className="text-center text-xs text-muted-foreground">
-              <p>Acme Cursos Ltda - CNPJ: 00.000.000/0001-00</p>
+              <p>jadlog Logistica S.A.</p>
               <p className="mt-1">Todos os direitos reservados</p>
             </div>
           </div>
