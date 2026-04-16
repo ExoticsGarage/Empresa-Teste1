@@ -2,11 +2,12 @@ export default function Home() {
   return (
     <main className="landing">
       <section className="hero">
-        <div className="heroBadge">Sua empresa no melhor caminho</div>
-
-        <h1 className="heroTitle">
-          Jadlog
-        </h1>
+        <div className="heroBrand">
+          <img src="/logo.png" alt="Logo" className="heroLogo" />
+          <h1 className="heroTitle">
+            Uma página profissional, rápida e pronta para publicar
+          </h1>
+        </div>
 
         <p className="heroText">
           Estrutura simples, visual moderno e base estável para você continuar
