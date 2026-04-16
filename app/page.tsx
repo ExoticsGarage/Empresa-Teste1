@@ -65,7 +65,8 @@ export default function Home() {
 
     <div className="companyContent">
       <span className="sectionMini">Sobre a operação</span>
-      <h2>Estrutura preparada para acompanhamento de transporte</h2>
+      <h2>Somos a Jadlog, sua encomenda no
+melhor caminho</h2>
       <p>
         Nossa operação foi pensada para apresentar de forma clara as
         informações do envio, custos estimados e detalhes do transporte em
