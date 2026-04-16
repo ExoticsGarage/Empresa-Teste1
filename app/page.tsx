@@ -3,14 +3,10 @@ export default function Home() {
     <main className="page">
       <section className="card">
         <span className="badge">Online</span>
-
         <h1>Projeto funcionando na Vercel</h1>
-
         <p>
-          Se você está vendo esta página, a rota principal foi publicada
-          corretamente e o deploy está funcionando.
+          Se você está vendo esta página, a rota principal foi publicada corretamente.
         </p>
-
         <button type="button" className="primaryButton">
           Continuar
         </button>
