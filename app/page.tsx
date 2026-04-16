@@ -5,7 +5,7 @@ export default function Home() {
         <div className="heroBrand">
           <img src="/logo.png" alt="Logo" className="heroLogo" />
           <h1 className="heroTitle">
-            Resumo de transporte e custo de frete
+            Jadlog
           </h1>
         </div>
 
