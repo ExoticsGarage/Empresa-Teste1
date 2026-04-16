@@ -29,7 +29,7 @@ export default function Home() {
         <div className="highlightCard">
           <div className="highlightContent">
             <span className="sectionMini">Dados do envio</span>
-            <h2>Prévia do produto e do frete</h2>
+            <h2>Prévia do produto e dos tributos</h2>
             <p>
               Esta página reúne as principais informações do item, transporte e
               custo estimado para conferência antes da próxima etapa.
@@ -56,7 +56,7 @@ export default function Home() {
       <section className="featuresSection">
         <div className="sectionHeader">
           <span className="sectionMini">Resumo</span>
-          <h2>Informações principais do transporte</h2>
+          <h2>Informações principais das taxas</h2>
           <p>
             Visualize os dados essenciais do envio em uma única página, de forma
             clara e organizada.
@@ -94,9 +94,9 @@ export default function Home() {
       <section className="ctaSection">
         <div className="ctaCard">
           <span className="sectionMini">Resumo financeiro</span>
-          <h2>Valor estimado do transporte</h2>
+          <h2>Valor estimado das taxas alfandegarias</h2>
           <p>
-            Revise abaixo o custo previsto do frete antes de continuar.
+            Revise abaixo o custo antes de continuar.
           </p>
 
           <div
