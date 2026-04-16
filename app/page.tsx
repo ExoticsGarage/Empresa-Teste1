@@ -12,9 +12,9 @@ export default function ProductPage() {
         <div className="container mx-auto px-4 flex justify-center">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">A</span>
+              <span className="text-primary-foreground font-bold text-lg">J</span>
             </div>
-            <span className="text-xl font-semibold text-foreground">Acme</span>
+            <span className="text-xl font-semibold text-foreground">jadlog</span>
           </div>
         </div>
       </header>
@@ -65,11 +65,10 @@ export default function ProductPage() {
               Aprenda do zero ao avancado com aulas praticas
             </p>
             <div className="flex items-center justify-center gap-3">
-              <span className="text-sm text-muted-foreground line-through">R$ 497,00</span>
-              <span className="text-3xl font-bold text-primary">R$ 197,00</span>
+              <span className="text-3xl font-bold text-primary">R$ 55,00</span>
             </div>
-            <p className="text-sm text-muted-foreground mt-1">
-              ou 12x de R$ 19,90
+            <p className="text-sm font-medium text-primary mt-2">
+              Pagamento somente via PIX
             </p>
           </div>
 
