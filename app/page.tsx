@@ -5,101 +5,132 @@ export default function Home() {
         <div className="heroBrand">
           <img src="/logo.png" alt="Logo" className="heroLogo" />
           <h1 className="heroTitle">
-            Uma página profissional, rápida e pronta para publicar
+            Resumo de transporte e custo de frete
           </h1>
         </div>
 
         <p className="heroText">
-          Estrutura simples, visual moderno e base estável para você continuar
-          editando sem quebrar o deploy.
+          Confira os dados do produto, modalidade de envio e valor estimado do
+          transporte antes de prosseguir.
         </p>
 
         <div className="heroActions">
           <button type="button" className="primaryButton">
-            Começar agora
+            Ver resumo
           </button>
 
           <button type="button" className="secondaryButton">
-            Ver detalhes
+            Mais detalhes
           </button>
-        </div>
-      </section>
-
-      <section className="featuresSection">
-        <div className="sectionHeader">
-          <span className="sectionMini">Vantagens</span>
-          <h2>Base pronta para crescer</h2>
-          <p>
-            Você pode usar essa página como ponto de partida para um site
-            institucional, landing page, página de vendas ou apresentação.
-          </p>
-        </div>
-
-        <div className="featuresGrid">
-          <article className="featureCard">
-            <div className="featureIcon">01</div>
-            <h3>Visual profissional</h3>
-            <p>
-              Layout limpo, moderno e organizado para transmitir mais confiança.
-            </p>
-          </article>
-
-          <article className="featureCard">
-            <div className="featureIcon">02</div>
-            <h3>Carregamento rápido</h3>
-            <p>
-              Estrutura leve, sem dependências desnecessárias e fácil de manter.
-            </p>
-          </article>
-
-          <article className="featureCard">
-            <div className="featureIcon">03</div>
-            <h3>Fácil de editar</h3>
-            <p>
-              Textos, blocos e botões separados de forma simples para você mudar
-              tudo direto no GitHub.
-            </p>
-          </article>
         </div>
       </section>
 
       <section className="highlightSection">
         <div className="highlightCard">
           <div className="highlightContent">
-            <span className="sectionMini">Estrutura estável</span>
-            <h2>Seu projeto já está publicando corretamente</h2>
+            <span className="sectionMini">Dados do envio</span>
+            <h2>Prévia do produto e do frete</h2>
             <p>
-              Agora que a base está funcionando, dá para evoluir o design com
-              segurança e sem voltar para aqueles erros de build.
+              Esta página reúne as principais informações do item, transporte e
+              custo estimado para conferência antes da próxima etapa.
             </p>
           </div>
 
           <div className="highlightStats">
             <div className="statBox">
-              <strong>100%</strong>
-              <span>Deploy funcional</span>
+              <strong>Produto</strong>
+              <span>Caixa eletrônica premium</span>
             </div>
             <div className="statBox">
-              <strong>Base limpa</strong>
-              <span>Sem arquivos órfãos</span>
+              <strong>Peso</strong>
+              <span>2,4 kg</span>
             </div>
             <div className="statBox">
-              <strong>Pronta</strong>
-              <span>Para personalizar</span>
+              <strong>Destino</strong>
+              <span>São Paulo - SP</span>
             </div>
           </div>
         </div>
       </section>
 
+      <section className="featuresSection">
+        <div className="sectionHeader">
+          <span className="sectionMini">Resumo</span>
+          <h2>Informações principais do transporte</h2>
+          <p>
+            Visualize os dados essenciais do envio em uma única página, de forma
+            clara e organizada.
+          </p>
+        </div>
+
+        <div className="featuresGrid">
+          <article className="featureCard">
+            <div className="featureIcon">01</div>
+            <h3>Produto</h3>
+            <p>
+              Nome do item, categoria, quantidade e identificação do volume.
+            </p>
+          </article>
+
+          <article className="featureCard">
+            <div className="featureIcon">02</div>
+            <h3>Transporte</h3>
+            <p>
+              Modalidade de envio, origem, destino e prazo estimado de entrega.
+            </p>
+          </article>
+
+          <article className="featureCard">
+            <div className="featureIcon">03</div>
+            <h3>Taxa de frete</h3>
+            <p>
+              Valor estimado com base em peso, distância e tipo de serviço
+              selecionado.
+            </p>
+          </article>
+        </div>
+      </section>
+
       <section className="ctaSection">
         <div className="ctaCard">
-          <h2>Quer continuar melhorando essa página?</h2>
+          <span className="sectionMini">Resumo financeiro</span>
+          <h2>Valor estimado do transporte</h2>
           <p>
-            A partir daqui, dá para trocar cores, textos, logo, imagens, cards
-            e transformar isso no estilo que você quiser.
+            Revise abaixo o custo previsto do frete antes de continuar.
           </p>
+
+          <div
+            style={{
+              display: 'grid',
+              gap: '14px',
+              marginTop: '24px',
+              marginBottom: '24px',
+              textAlign: 'left',
+            }}
+          >
+            <div className="statBox">
+              <strong>Produto</strong>
+              <span>Caixa eletrônica premium</span>
+            </div>
+
+            <div className="statBox">
+              <strong>Serviço de transporte</strong>
+              <span>Envio expresso nacional</span>
+            </div>
+
+            <div className="statBox">
+              <strong>Prazo estimado</strong>
+              <span>3 a 5 dias úteis</span>
+            </div>
+
+            <div className="statBox">
+              <strong>Taxa de frete</strong>
+              <span>R$ 55,00</span>
+            </div>
+          </div>
+
           <button type="button" className="primaryButton">
-            Continuar projeto
+            Prosseguir
           </button>
         </div>
       </section>
@@ -107,7 +138,7 @@ export default function Home() {
       <footer className="footer">
         <div className="footerInner">
           <span>© 2026 Empresa Teste</span>
-          <span>Página publicada com Next.js + Vercel</span>
+          <span>Resumo de transporte e frete</span>
         </div>
       </footer>
     </main>
